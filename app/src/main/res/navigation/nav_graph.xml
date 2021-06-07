@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/var_graph"
+    app:startDestination="@id/conversionFragment">
+
+    <fragment
+        android:id="@+id/conversionFragment"
+        android:name="superunitconverter.nexmii.com.superunitconverter.views.fragments.ConversionBaseFragment"
+        android:label="fragment_conversion"
+        tools:layout="@layout/fragment_base_conversion">
+        <action
+            android:id="@+id/action_conversionFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="superunitconverter.nexmii.com.superunitconverter.views.fragments.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_historyFragment_to_unitsFragment"
+            app:destination="@id/unitsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/unitsFragment"
+        android:name="superunitconverter.nexmii.com.superunitconverter.views.fragments.UnitsFragment"
+        android:label="fragment_units"
+        tools:layout="@layout/fragment_common_conv">
+        <action
+            android:id="@+id/action_unitsFragment_to_conversionFragment"
+            app:destination="@id/conversionFragment" />
+    </fragment>
+
+</navigation>

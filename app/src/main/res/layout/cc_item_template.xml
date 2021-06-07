@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/grey_card_bg"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginBottom="@dimen/margin_16"
+    android:layout_marginStart="@dimen/margin_12"
+    android:layout_marginEnd="@dimen/margin_12">
+
+    <TextView
+        android:id="@+id/cc_item_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/category_temperature"
+        android:textColor="@color/app_green"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_22"
+        android:layout_marginTop="@dimen/margin_6"/>
+
+    <LinearLayout
+        android:id="@+id/cc_item_flow_container"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_6">
+
+        <LinearLayout
+            android:id="@+id/cc_item_org_container"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/margin_6"
+            android:layout_marginBottom="@dimen/margin_6">
+
+            <TextView
+                android:id="@+id/cc_item_original_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/test_one"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size_22"
+                android:maxLength="4"/>
+
+            <TextView
+                android:id="@+id/cc_item_original_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/test_word_one"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_18"
+                android:maxLength="15"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/cc_item_convert_arrow"
+            android:layout_width="@dimen/convert_arrows"
+            android:layout_height="@dimen/convert_arrows"
+            android:src="@drawable/convarrowgreen"
+            android:contentDescription="@string/convert_arrow" />
+
+        <LinearLayout
+            android:id="@+id/cc_item_tar_container"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/margin_6"
+            android:layout_marginBottom="@dimen/margin_6">
+
+            <TextView
+                android:id="@+id/cc_item_target_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/test_two"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size_22"
+                android:maxLength="4"/>
+
+            <TextView
+                android:id="@+id/cc_item_target_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/test_word_two"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_18"
+                android:maxLength="15"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

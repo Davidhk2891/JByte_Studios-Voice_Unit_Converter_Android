@@ -1,0 +1,81 @@
+<resources>
+
+    <!--  Miscellaneous  -->
+    <string name="app_name">Super Unit Converter</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="type_what_you_want_to_convert">Type what you want to convert</string>
+    <string name="convert">convert</string>
+    <string name="manual_convert">manual convert</string>
+    <string name="mic_button">mic button</string>
+    <string name="back_arrow">back arrow</string>
+    <string name="as_of">As of:</string>
+    <string name="test_one">1</string>
+    <string name="test_two">999.9</string>
+    <string name="test_three">0.0</string>
+    <string name="test_word_one">celsius</string>
+    <string name="test_word_two">fahrenheit</string>
+    <string name="amount">amount</string>
+    <string name="units">units</string>
+    <string name="to">to</string>
+    <string name="default_number_1">1</string>
+    <string name="cannot_convert_to_Same">Cannot convert to the same unit.</string>
+    <string name="tap_the_mic_to_convert">Tap the mic to convert</string>
+    <string name="test">test</string>
+    <string name="no_internet">No internet connection detected. Currency conversion may not work.</string>
+    <string name="dismiss">Dismiss</string>
+
+    <!--  Screen titles  -->
+    <string name="conversion_screen_title">Unit Converter</string>
+    <string name="voice">Voice</string>
+    <string name="oldie">Oldie</string>
+    <string name="history_screen_title">History</string>
+    <string name="cc_screen_title">Common Conversions</string>
+
+    <!-- Categories -->
+    <string name="category">category</string>
+    <string name="category_temperature">temperature</string>
+    <string name="category_length">length</string>
+    <string name="category_weight">weight</string>
+    <string name="category_volume">volume</string>
+    <string name="category_currency">currency</string>
+
+    <!--  Manual conversion  -->
+    <string name="choose_category">Select category</string>
+    <string name="original_unit">Select original unit</string>
+    <string name="target_unit">Select target unit</string>
+
+    <!--  Error messages to user  -->
+    <string name="error">Error</string>
+    <string name="empty_input">Nothing to convert.</string>
+    <string name="cannot_read_conversion">Couldn\'t read conversion.</string>
+    <string name="cannot_read_number">Couldn\'t convert that. Please try again.</string>
+    <string name="cannot_convert">Couldn\'t convert. Please try again.</string>
+    <string name="cannot_con_curr_no_internet">Couldn\'t convert. Please check your internet connection and try again.</string>
+    <string name="cannot_con_curr_internal">Couldn\'t convert. Please try again later.</string>
+    <string name="cannot_con_try_oldie">Couldn\'t convert. Try the OLDIE converter</string>
+    <string name="something_went_wrong">Something went wrong</string>
+
+    <string name="convert_arrow">convert arrow</string>
+    <string name="menu_desc">more</string>
+    <string name="menu_units">Units</string>
+    <string name="menu_about">About</string>
+
+    <!-- Options -->
+    <string-array name="more_options">
+        <item>Help</item>
+    </string-array>
+
+    <!-- ads - Admob  -->
+    <!--staging-->
+    <string name="admob_app_id_staging">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_staging">ca-app-pub-3940256099942544/6300978111</string>
+    <!--Production-->
+    <string name="admob_app_id_prod">ca-app-pub-3889185031106667~2106319633</string>
+    <string name="banner_main_activity_prod">ca-app-pub-3889185031106667/9158813147</string>
+    <string name="banner_web_view_activity_prod">ca-app-pub-3889185031106667/1232275567</string>
+    <!--Actual-->
+    <string name="admob_app_id_actual">ca-app-pub-3889185031106667~2106319633</string>
+    <string name="banner_main_activity_actual">ca-app-pub-3889185031106667/9158813147</string>
+    <string name="banner_web_view_activity_actual">ca-app-pub-3889185031106667/1232275567</string>
+
+</resources>

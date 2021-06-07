@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:id="@+id/manual_conv_category_section"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grey_card_bg"
+        android:layout_marginStart="@dimen/margin_12"
+        android:layout_marginEnd="@dimen/margin_12"
+        android:paddingTop="@dimen/padding_6"
+        android:paddingBottom="@dimen/padding_6">
+
+        <TextView
+            android:id="@+id/manual_conv_category_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category"
+            android:textColor="@color/grey"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_size_14"/>
+
+        <TextView
+            android:id="@+id/manual_conv_category_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_18"
+            android:textAllCaps="true"
+            android:layout_marginTop="@dimen/margin_6"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/manual_conv_amount_section"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/grey_card_bg"
+        android:layout_marginTop="@dimen/margin_12"
+        android:padding="@dimen/padding_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/manual_conv_amount_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amount"
+            android:textColor="@color/grey"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_size_14"/>
+
+        <EditText
+            android:id="@+id/manual_conv_amount_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:maxLength="34"
+            android:ems="5"
+            android:maxEms="15"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:text="@string/test_one"
+            android:textSize="@dimen/text_size_20"
+            android:background="@android:color/transparent"
+            android:autofillHints="number"
+            tools:ignore="LabelFor" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/manual_conv_units_section"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_12"
+        android:layout_marginStart="@dimen/margin_12"
+        android:layout_marginEnd="@dimen/margin_12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/manual_conv_original_unit"
+            android:text="@string/test_word_one"
+            android:background="@drawable/grey_card_bg"
+            android:padding="@dimen/padding_10"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:maxLines="2"
+            android:textSize="@dimen/text_size_18"
+            android:ems="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/manual_conv_to"
+            android:text="@string/to"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/manual_conv_target_unit"
+            android:layout_weight="1"
+            android:text="@string/test_word_two"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:background="@drawable/grey_card_bg"
+            android:padding="@dimen/padding_10"
+            android:ems="5"
+            android:maxLines="2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

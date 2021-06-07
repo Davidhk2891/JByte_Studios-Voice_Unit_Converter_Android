@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#A8FFD8</color>
+
+<!--  Custom colors  -->
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#AEA9A9</color>
+    <color name="light_black">#181818</color>
+
+<!--  Unit Converter's main colors  -->
+    <!--  app green  -->
+    <color name="app_green">#A8FFD8</color>
+    <!--  app purple  -->
+    <color name="app_purple">#B485EE</color>
+    <!--  app blue  -->
+    <color name="app_blue">#15B2E3</color>
+    <!--  app red  -->
+    <color name="app_red">#FF7876</color>
+    <!--  app orange  -->
+    <color name="app_orange">#FF9142</color>
+
+</resources>
