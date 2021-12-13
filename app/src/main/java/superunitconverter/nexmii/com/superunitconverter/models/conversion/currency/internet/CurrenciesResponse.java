@@ -2,8 +2,6 @@ package superunitconverter.nexmii.com.superunitconverter.models.conversion.curre
 
 import androidx.annotation.NonNull;
 
-import com.google.gson.annotations.SerializedName;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -14,8 +12,7 @@ import java.util.Map;
 public class CurrenciesResponse {
 
     //properties:
-    @SerializedName("symbols")
-    private final Map<String, String> currencies = new HashMap<>();
+    private final Map<String, String> symbols = new HashMap<>();
 
     //empty ctor:
     public CurrenciesResponse(){
@@ -23,8 +20,8 @@ public class CurrenciesResponse {
     }
 
     //getter
-    public Map<String, String> getCurrencies() {
-        return currencies;
+    public Map<String, String> getSymbols() {
+        return symbols;
     }
 
     //toString
@@ -32,7 +29,7 @@ public class CurrenciesResponse {
     @Override
     public String toString() {
         return "CurrenciesResponse{" +
-                "currencies=" + currencies +
+                "currencies=" + symbols +
                 '}';
     }
 }

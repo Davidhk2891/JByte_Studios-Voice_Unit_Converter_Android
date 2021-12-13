@@ -149,7 +149,7 @@ public class CurrencyRepo {
             public void onResponse(Call<CurrenciesResponse> call, Response<CurrenciesResponse> response) {
                 CurrenciesResponse res = response.body();
                 if (res != null)
-                    logger.infoLog("TEST_CURRENCY_BODY2", String.valueOf(res.getCurrencies()));
+                    logger.infoLog("TEST_CURRENCY_BODY2", String.valueOf(res.getSymbols()));
 
                 uiThread.post(()->{
                     //Bad call:
@@ -160,7 +160,7 @@ public class CurrencyRepo {
 
                     //Good call:
                     //Not null, there is internet - new data arrived
-                    callback.onResponse(res.getCurrencies(), null);
+                    callback.onResponse(res.getSymbols(), null);
 
                 });
 
